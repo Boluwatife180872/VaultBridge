@@ -46,8 +46,8 @@ const Header = () => {
   `}
       >
         <button onClick={scrollToTop} className="z-10 cursor-pointer">
-          <span className="text-xl font-bold text-[#102B42]">
-            <span className="text-[#4CAFA7]">Vault</span>Bridge
+          <span className="text-xl font-bold text-brand-dark">
+            <span className="text-brand-gold">Vault</span>Bridge
           </span>
         </button>
 
@@ -56,7 +56,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollTo("features")}
-                className="group text-black duration-1000 flex items-center gap-2 hover:text-[#4CAFA7] cursor-pointer"
+                className="group text-black duration-1000 flex items-center gap-2 hover:text-brand-gold cursor-pointer"
               >
                 Why Us
               </button>
@@ -64,7 +64,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollTo("services")}
-                className="group text-black duration-1000 flex items-center gap-2 hover:text-[#4CAFA7] cursor-pointer"
+                className="group text-black duration-1000 flex items-center gap-2 hover:text-brand-gold cursor-pointer"
               >
                 Services
               </button>
@@ -72,7 +72,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollTo("products")}
-                className="group text-black duration-1000 flex items-center gap-2 hover:text-[#4CAFA7] cursor-pointer"
+                className="group text-black duration-1000 flex items-center gap-2 hover:text-brand-gold cursor-pointer"
               >
                 Products
               </button>
@@ -80,7 +80,7 @@ const Header = () => {
             <li>
               <button
                 onClick={() => scrollTo("testimonials")}
-                className="group text-black duration-1000 flex items-center gap-2 hover:text-[#4CAFA7] cursor-pointer"
+                className="group text-black duration-1000 flex items-center gap-2 hover:text-brand-gold cursor-pointer"
               >
                 Testimonials
               </button>
@@ -91,7 +91,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <button
             onClick={() => scrollTo("services")}
-            className="cursor-pointer hidden md:inline-flex text-base font-bold bg-linear-to-r from-[#102B42] to-[#4CAFA7] 
+            className="cursor-pointer hidden md:inline-flex text-base font-bold bg-linear-to-r from-brand-dark to-brand-gold 
               bg-clip-text text-transparent"
           >
             Get Started
@@ -99,7 +99,7 @@ const Header = () => {
 
           <button
             onClick={() => scrollTo("services")}
-            className="hidden md:inline-flex bg-linear-to-r from-[#102B42] to-[#4CAFA7] p-3 rounded text-white cursor-pointer"
+            className="hidden md:inline-flex bg-linear-to-r from-brand-dark to-brand-gold p-3 rounded text-white cursor-pointer"
           >
             Contact Us
           </button>
@@ -121,7 +121,7 @@ const Header = () => {
               <li>
                 <button
                   onClick={() => scrollTo("features")}
-                  className="block text-black hover:text-[#4CAFA7] cursor-pointer"
+                  className="block text-black hover:text-brand-gold cursor-pointer"
                 >
                   Why Us
                 </button>
@@ -129,7 +129,7 @@ const Header = () => {
               <li>
                 <button
                   onClick={() => scrollTo("services")}
-                  className="block text-black hover:text-[#4CAFA7] cursor-pointer"
+                  className="block text-black hover:text-brand-gold cursor-pointer"
                 >
                   Services
                 </button>
@@ -137,7 +137,7 @@ const Header = () => {
               <li>
                 <button
                   onClick={() => scrollTo("products")}
-                  className="block text-black hover:text-[#4CAFA7] cursor-pointer"
+                  className="block text-black hover:text-brand-gold cursor-pointer"
                 >
                   Products
                 </button>
@@ -145,7 +145,7 @@ const Header = () => {
               <li>
                 <button
                   onClick={() => scrollTo("testimonials")}
-                  className="block text-black hover:text-[#4CAFA7] cursor-pointer"
+                  className="block text-black hover:text-brand-gold cursor-pointer"
                 >
                   Testimonials
                 </button>
@@ -154,7 +154,7 @@ const Header = () => {
               <li className="pt-2">
                 <button
                   onClick={() => scrollTo("services")}
-                  className="w-full text-left text-black hover:text-[#4CAFA7] cursor-pointer"
+                  className="w-full text-left text-black hover:text-brand-gold cursor-pointer"
                 >
                   Get Started
                 </button>
@@ -162,7 +162,7 @@ const Header = () => {
               <li>
                 <button
                   onClick={() => scrollTo("services")}
-                  className="w-full bg-linear-to-r from-[#102B42] to-[#4CAFA7] p-3 rounded text-white cursor-pointer"
+                  className="w-full bg-linear-to-r from-brand-dark to-brand-gold p-3 rounded text-white cursor-pointer"
                 >
                   Contact Us
                 </button>

@@ -43,7 +43,7 @@ export const TextGenerateEffect = ({
         "text-sm md:text-base leading-relaxed tracking-wide",
         className
       )}
-      style={{ color: "#204260" }} // ← YOUR EXACT COLOR FIX
+      style={{ color: "#1E293B" }} // ← YOUR EXACT COLOR FIX
     >
       {wordsArray.map((word, idx) => (
         <span
@@ -51,7 +51,7 @@ export const TextGenerateEffect = ({
           className="inline opacity-0"
           style={{
             filter: filter ? "blur(10px)" : "none",
-            color: "#204260", // ← Ensures the animated spans keep the color
+            color: "#1E293B", // ← Ensures the animated spans keep the color
           }}
         >
           {word}

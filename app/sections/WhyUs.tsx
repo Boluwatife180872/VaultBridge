@@ -16,7 +16,7 @@ const WhyUs = () => {
           delay={150}
           animateBy="words"
           direction="top"
-          className="text-3xl md:text-4xl font-bold text-center text-[#2A6F75] justify-center"
+          className="text-3xl md:text-4xl font-bold font-heading text-center text-brand-gold-dark justify-center"
         />
 
         <p className="text-sm md:text-base text-center mt-4">
@@ -25,10 +25,10 @@ const WhyUs = () => {
       </div>
 
       <div className="mt-15 px-4 md:px-6 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 cursor-pointer">
-        <div className="border-2 rounded-2xl border-[#4CAFA7] p-5 bg-[#E8FAFC] transition-all duration-300 ease-out hover:scale-105 hover:shadow-[0_10px_25px_#4CAFA71A]">
+        <div className="border-2 rounded-2xl border-brand-gold p-5 bg-brand-bg-2 transition-all duration-300 ease-out hover:scale-105 hover:shadow-[0_10px_25px_rgba(212,168,75,0.1)]">
           <Image src={custom} alt="custom" className="mx-auto mb-4" />
           <div className="text-center space-y-2">
-            <h3 className="font-semibold text-lg text-[#102B42]">
+            <h3 className="font-semibold text-lg text-brand-dark">
               High-interest savings
             </h3>
             <p className="text-sm md:text-base">
@@ -38,10 +38,10 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="border-2 rounded-2xl border-[#4CAFA7] p-5 bg-[#E8FAFC] transition-all duration-300 ease-out hover:scale-105 hover:shadow-[0_10px_25px_#4CAFA71A]">
+        <div className="border-2 rounded-2xl border-brand-gold p-5 bg-brand-bg-2 transition-all duration-300 ease-out hover:scale-105 hover:shadow-[0_10px_25px_rgba(212,168,75,0.1)]">
           <Image src={hand} alt="hand" className="mx-auto mb-4" />
           <div className="text-center space-y-2">
-            <h3 className="font-semibold text-lg text-[#102B42]">
+            <h3 className="font-semibold text-lg text-brand-dark">
               Low-interest loans
             </h3>
             <p className="text-sm md:text-base">
@@ -52,10 +52,10 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="border-2 rounded-2xl border-[#4CAFA7] p-5 bg-[#E8FAFC] transition-all duration-300 ease-out hover:scale-105 hover:shadow-[0_10px_25px_#4CAFA71A] ">
+        <div className="border-2 rounded-2xl border-brand-gold p-5 bg-brand-bg-2 transition-all duration-300 ease-out hover:scale-105 hover:shadow-[0_10px_25px_rgba(212,168,75,0.1)] ">
           <Image src={guide} alt="guide" className="mx-auto mb-4" />
           <div className="text-center space-y-2">
-            <h3 className="font-semibold text-lg text-[#102B42]">
+            <h3 className="font-semibold text-lg text-brand-dark">
               Easy digital banking
             </h3>
             <p className="text-sm md:text-base">
@@ -65,10 +65,10 @@ const WhyUs = () => {
           </div>
         </div>
 
-        <div className="border-2 rounded-2xl border-[#4CAFA7] p-5 bg-[#E8FAFC] transition-all duration-300 ease-out hover:scale-105 hover:shadow-[0_10px_25px_#4CAFA71A]">
+        <div className="border-2 rounded-2xl border-brand-gold p-5 bg-brand-bg-2 transition-all duration-300 ease-out hover:scale-105 hover:shadow-[0_10px_25px_rgba(212,168,75,0.1)]">
           <Image src={shield} alt="shield" className="mx-auto mb-4" />
           <div className="text-center space-y-2">
-            <h3 className="font-semibold text-lg text-[#102B42]">
+            <h3 className="font-semibold text-lg text-brand-dark">
               Trusted and secure
             </h3>
             <p className="text-sm md:text-base">

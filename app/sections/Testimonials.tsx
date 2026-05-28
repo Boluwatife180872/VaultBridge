@@ -10,35 +10,35 @@ const testimonials = [
     text: "I love the high-interest rate and the ease of opening an account. I have saved more than ever before. Thank you!",
     name: "Aisha",
     role: "Teacher",
-    color: "#4CAFA7",
+    color: "#D4A84B",
   },
   {
     title: "Fast and affordable loan",
     text: "I needed a loan to start my business and the bank gave me one with a low interest rate and flexible repayment terms. It was a lifesaver!",
     name: "Chinedu",
     role: "Caterer",
-    color: "#102B42",
+    color: "#0F172A",
   },
   {
     title: "Convenient digital banking",
     text: "I can do everything from my phone. Transfer money, pay bills, buy airtime, and more. So convenient and hassle-free!",
     name: "Olakunle",
     role: "Engineer",
-    color: "#0A2A43",
+    color: "#0F172A",
   },
   {
     title: "Excellent customer support",
     text: "The customer service team was incredibly helpful when I had an issue with my account. They resolved it within minutes. Highly recommended!",
     name: "Folake",
     role: "Business Owner",
-    color: "#2A6F75",
+    color: "#B8942E",
   },
   {
     title: "Easy account opening",
     text: "I opened my account in under 5 minutes from my phone. The entire process was smooth and paperless. This is the future of banking!",
     name: "Emeka",
     role: "Freelancer",
-    color: "#4CAFA7",
+    color: "#D4A84B",
   },
 ];
 
@@ -70,9 +70,9 @@ const Testimonials = () => {
               delay={150}
               animateBy="words"
               direction="top"
-              className="text-3xl md:text-4xl font-bold text-[#2A6F75] justify-start"
+              className="text-3xl md:text-4xl font-bold font-heading text-brand-gold-dark justify-start"
             />
-            <p className="text-[#507695] mt-2 max-w-[500px]">
+            <p className="text-brand-muted mt-2 max-w-[500px]">
               Customers love our high-interest savings, low-interest loans, and
               easy digital banking.
             </p>
@@ -81,14 +81,14 @@ const Testimonials = () => {
           <div className="flex items-center gap-3 mt-3 md:mt-0">
             <button
               onClick={scrollLeft}
-              className="w-9 h-9 border border-[#4CAFA7] flex items-center justify-center rounded-full hover:bg-[#e0f7f5] md:w-10 md:h-10 cursor-pointer"
+              className="w-9 h-9 border border-brand-gold flex items-center justify-center rounded-full hover:bg-brand-bg-2 md:w-10 md:h-10 cursor-pointer"
               aria-label="Scroll left"
             >
               <FaArrowLeft />
             </button>
             <button
               onClick={scrollRight}
-              className="w-9 h-9 border border-[#4CAFA7] flex items-center justify-center rounded-full hover:bg-[#e0f7f5] md:w-10 md:h-10 cursor-pointer"
+              className="w-9 h-9 border border-brand-gold flex items-center justify-center rounded-full hover:bg-brand-bg-2 md:w-10 md:h-10 cursor-pointer"
               aria-label="Scroll right"
             >
               <FaArrowRight />
@@ -106,12 +106,12 @@ const Testimonials = () => {
             <div
               key={i}
               className="snap-start min-w-[85%] sm:min-w-[60%] md:min-w-[45%] lg:min-w-[30%]
-                 bg-white border border-[#4CAFA7] rounded-2xl 
+                 bg-white border border-brand-gold rounded-2xl 
                  p-5 sm:p-6 md:p-7 
                  flex flex-col justify-between shadow-sm transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-lg"
             >
               <div>
-                <h3 className="font-semibold text-lg md:text-xl text-[#0A2A43]">
+                <h3 className="font-semibold text-lg md:text-xl text-brand-dark">
                   {item.title}
                 </h3>
 
@@ -123,7 +123,7 @@ const Testimonials = () => {
                   ))}
                 </div>
 
-                <p className="text-[#507695] leading-relaxed mt-3 text-sm sm:text-base">
+                <p className="text-brand-muted leading-relaxed mt-3 text-sm sm:text-base">
                   &ldquo;{item.text}&rdquo;
                 </p>
               </div>
@@ -136,8 +136,8 @@ const Testimonials = () => {
                   {initials(item.name)}
                 </div>
                 <div>
-                  <p className="font-semibold text-[#0A2A43]">{item.name}</p>
-                  <p className="text-[#507695] text-sm">{item.role}</p>
+                  <p className="font-semibold text-brand-dark">{item.name}</p>
+                  <p className="text-brand-muted text-sm">{item.role}</p>
                 </div>
               </div>
             </div>

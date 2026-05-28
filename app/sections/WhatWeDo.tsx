@@ -13,11 +13,11 @@ const WhatWeDo = () => {
           delay={150}
           animateBy="words"
           direction="top"
-          className="text-3xl md:text-4xl font-bold text-center justify-center text-[#2A6F75] "
+          className="text-3xl md:text-4xl font-bold font-heading text-center justify-center text-brand-gold-dark"
         />
 
         <p
-          className="text-center mt-2 text-[#204260] max-w-[900px] mx-auto px-2 sm:px-0 
+          className="text-center mt-2 text-brand-dark-2 max-w-[900px] mx-auto px-2 sm:px-0 
       md:whitespace-nowrap"
         >
           We provide smart banking solutions for your savings, loans, and
@@ -28,8 +28,8 @@ const WhatWeDo = () => {
       <div className="mt-7">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 px-4">
           <SpotlightCard
-            className="custom-spotlight-card p-6 md:p-10 bg-linear-to-r from-[#102B42] to-[#000000] text-white rounded-2xl"
-            spotlightColor="rgba(0, 229, 255, 0.7)"
+            className="custom-spotlight-card p-6 md:p-10 bg-linear-to-r from-brand-dark to-[#000000] text-white rounded-2xl"
+            spotlightColor="rgba(212, 168, 75, 0.15)"
           >
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold leading-snug">
               See how we are helping SMEs scale with our business loans
@@ -49,15 +49,15 @@ const WhatWeDo = () => {
               ))}
             </div>
 
-            <button className="group flex items-center gap-2 text-sm sm:text-base font-medium text-[#06F9EE] border-2 border-[#06F9EE] px-3 py-2 rounded mt-3 sm:mt-5 hover:text-[#4CAFA7] hover:border-[#4CAFA7] hover:bg-white transition cursor-pointer">
+            <button className="group flex items-center gap-2 text-sm sm:text-base font-medium text-brand-gold border-2 border-brand-gold px-3 py-2 rounded mt-3 sm:mt-5 hover:text-brand-gold hover:border-brand-gold hover:bg-white transition cursor-pointer">
               Watch Video
               <FaPlay />
             </button>
           </SpotlightCard>
 
           <SpotlightCard
-            className="custom-spotlight-card p-6 md:p-10 bg-linear-to-r from-[#102B42] to-[#4CAFA7] text-white rounded-2xl"
-            spotlightColor="rgba(0, 229, 255, 0.3)"
+            className="custom-spotlight-card p-6 md:p-10 bg-linear-to-r from-brand-dark to-brand-gold text-white rounded-2xl"
+            spotlightColor="rgba(212, 168, 75, 0.08)"
           >
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold leading-snug">
               Learn how we help you earn returns on money saved
@@ -77,7 +77,7 @@ const WhatWeDo = () => {
               ))}
             </div>
 
-            <button className="group flex items-center gap-2 text-sm sm:text-base font-medium text-[#06F9EE] border-2 border-[#06F9EE] px-3 py-2 rounded mt-3 sm:mt-5 hover:text-[#4CAFA7] hover:border-[#4CAFA7] hover:bg-white transition cursor-pointer">
+            <button className="group flex items-center gap-2 text-sm sm:text-base font-medium text-brand-gold border-2 border-brand-gold px-3 py-2 rounded mt-3 sm:mt-5 hover:text-brand-gold hover:border-brand-gold hover:bg-white transition cursor-pointer">
               Watch Video
               <FaPlay />
             </button>

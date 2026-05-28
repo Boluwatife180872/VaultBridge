@@ -46,7 +46,7 @@ export const TextGenerateEffect2 = ({
         className
       )}
       style={{
-        background: "linear-gradient(90deg, #133350, #4CAFA7)",
+        background: "linear-gradient(90deg, #0F172A, #D4A84B)",
       }}
     >
       {wordsArray.map((word, idx) => (

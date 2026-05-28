@@ -16,7 +16,7 @@ const HeroCTA = () => {
 
   return (
     <section className="max-w-[1100px] mx-auto w-full my-16 px-5 md:px-10">
-      <div className="relative bg-linear-to-r from-[#0A2A43] to-[#4CAFA7] flex flex-col md:flex-row items-center justify-between rounded-3xl p-8 md:p-12 shadow-[0_8px_30px_rgba(76,175,167,0.2)] overflow-hidden">
+      <div className="relative bg-linear-to-r from-brand-dark to-brand-gold flex flex-col md:flex-row items-center justify-between rounded-3xl p-8 md:p-12 shadow-[0_8px_30px_rgba(212,168,75,0.2)] overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2" />
         <div className="relative max-w-[500px] text-left">
@@ -25,7 +25,7 @@ const HeroCTA = () => {
           </h2>
           <button
             onClick={() => scrollTo("products")}
-            className="mt-6 px-6 py-3 bg-white text-[#0A2A43] rounded-xl font-semibold hover:bg-[#4CAFA7] hover:text-white transition-all duration-300 cursor-pointer shadow-lg"
+            className="mt-6 px-6 py-3 bg-white text-brand-dark rounded-xl font-semibold hover:bg-brand-gold hover:text-white transition-all duration-300 cursor-pointer shadow-lg"
           >
             Get Started
           </button>

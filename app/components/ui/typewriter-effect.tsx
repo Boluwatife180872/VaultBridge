@@ -56,7 +56,7 @@ export function TypewriterEffectSmooth({
                       repeatType: "reverse",
                     }}
                     className={cn(
-                      "inline-block w-1 h-6 md:h-8 lg:h-10 bg-[#4CAFA7] ml-1",
+                      "inline-block w-1 h-6 md:h-8 lg:h-10 bg-brand-gold ml-1",
                       cursorClassName
                     )}
                   />
