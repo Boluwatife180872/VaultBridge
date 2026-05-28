@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VaultBridge Microfinance Bank
+
+A modern, responsive landing page for a microfinance bank built with **Next.js 16**, **React 19**, **Tailwind CSS v4**, and **Motion** (Framer Motion).
+
+![Next.js](https://img.shields.io/badge/Next.js-16.0-black)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)
+
+---
+
+## Features
+
+- **Animated Hero** — Typewriter headline with smooth text reveal animations
+- **Feature Cards** — 4-column grid highlighting key banking benefits
+- **Stats Section** — Animated counter for businesses & individuals served
+- **Product Showcase** — Spotlight cards with mouse-following glow effect
+- **Testimonials Carousel** — Horizontally scrollable customer reviews with star ratings
+- **Responsive Design** — Fully responsive across mobile, tablet, and desktop
+- **Smooth Navigation** — Scroll-to-section nav with fixed header glassmorphism effect
+- **SEO Optimized** — Metadata, Open Graph tags, and favicon included
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| [Next.js 16](https://nextjs.org/) | React framework (App Router) |
+| [React 19](https://react.dev/) | UI library |
+| [Tailwind CSS v4](https://tailwindcss.com/) | Utility-first styling |
+| [Motion](https://motion.dev/) | Animations (typewriter, blur-in, count-up) |
+| [TypeScript](https://www.typescriptlang.org/) | Type safety |
+| [shadcn/ui](https://ui.shadcn.com/) | UI component patterns |
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+app/
+├── components/         # Header, TopBar, and reusable UI components
+│   └── ui/             # Animation components (typewriter, blur, count-up, spotlight)
+├── sections/           # Page sections (Hero, WhyUs, ExtraPage, WhatWeDo, etc.)
+├── styles/             # Global CSS (Tailwind config, theme variables, animations)
+├── libs/               # Utility functions (cn helper)
+├── layout.tsx          # Root layout with SEO metadata
+└── page.tsx            # Home page composing all sections
+public/
+├── images/             # Static images and icons
+└── favicon.svg         # SVG favicon
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
