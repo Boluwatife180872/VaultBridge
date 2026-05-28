@@ -40,7 +40,7 @@ const Header = () => {
 
     ${
       scrolled
-        ? "md:fixed md:top-0 md:left-0 md:right-0 md:z-50 md:bg-white/80 md:shadow-[0_4px_20px_rgba(0,0,0,0.06)] md:backdrop-blur-xl"
+        ? "md:fixed md:top-0 md:left-0 md:right-0 md:z-50 md:bg-white/80 md:shadow-[0_4px_20px_rgba(0,0,0,0.06)] md:backdrop-blur-xl md:rounded-b-xl"
         : "md:relative"
     }
   `}
